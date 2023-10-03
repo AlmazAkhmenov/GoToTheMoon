@@ -1,0 +1,19 @@
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	message := sayHello("Oleg")
+	printmessage(message)
+	// printmessage("выозов2")
+	// printmessage("выозов3")
+}
+
+func printmessage(message string) {
+	fmt.Println(message)
+}
+func sayHello(name string) string {
+	return "Привет, " + name 
+}
